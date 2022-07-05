@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@300&display=swap');
+*{
+	padding: 0;
+	margin: 0;
+		
+}
+
+html{
+	height: 100%;
+	width: 100%;
+}
+
+body {
+	background: url(https://res.cloudinary.com/amichania/image/upload/v1654830860/New/file000855094214_qq8a9n.jpg) no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+.log{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%); 
+	width: 350px;
+	color: white;
+}
+
+.log h1{
+	font-size: 40px;
+	font-family: 'Heebo', sans-serif;
+	text-transform: uppercase;
+	margin: 20px 0;
+}
+
+.log p{
+	font-size: 20px;
+	margin: 15px 0;
+}
+
+.log input, textarea {
+	font-size: 20px;
+	padding:15px 10px;
+	width: 100%;
+	border: 0;
+	border-radius: 5px;
+	outline: none;
+}
+
+.log button{
+	font-size: 20px;
+	font-weight: bold;
+	margin: 20px 0;
+	padding: 10px 15px;
+	width: 50%;
+	border: 0;
+	border-radius: 5px;
+	background-color: white;
+
+}
+
+button:hover{
+	cursor: pointer;
+}
+
+.main_nav {
+	position: absolute;
+	top: 0;
+	width: 100%;
+	padding-top: 30px;
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+
+}
+h1{
+	text-align: center;
+}
+
+
+header .main_nav a{
+	color: white;
+ 	text-decoration: none;
+	font-weight: 500;
+	letter-spacing: 1.5px;
+	padding: 10px 15px;
+	border-radius: 20px;
+	margin-top: 5px;
+}
+
+
+header .main_nav a:not(:last-child){
+	margin-right: 30px;
+}
+
+header .main_nav a:hover{
+	background: #202C39;
+}
+

@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@300&display=swap');
+*{
+	padding: 0;
+	margin: 0;
+}
+
+
+html{
+	height: 100%;
+	width: 100%;	
+}
+
+.container{
+	background: url(https://res.cloudinary.com/amichania/image/upload/v1654830860/New/file000855094214_qq8a9n.jpg) no-repeat;
+	background-size: cover;
+	background-position: center;
+	position: relative;
+}
+
+main{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding-bottom: 5px;
+
+	
+}
+
+.push h1{
+	font-size: 40px;
+	font-family: 'Heebo', sans-serif;
+	text-transform: uppercase;
+	margin: 20px 0;
+	color: white;
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding-bottom: 5px;
+	
+
+}
+.push{
+	margin-top: 100px;
+}
+
+h1{
+	text-align: center;
+}
+
+
+.push p{
+	font-size: 20px;
+	color: white;
+	margin-bottom: 5px;
+	margin-top: 35px;
+
+}
+
+.push input {
+	font-size: 20px;
+	padding:15px 10px;
+	width: 100%;
+	border: 0;
+	border-radius: 5px;
+	outline: none;
+}
+
+select#gender{
+	font-size: 20px;
+	padding:15px 10px;
+	width: 107.61%;
+	border: 0;
+	border-radius: 5px;
+	outline: none;
+
+}
+
+header .main_nav a{
+	color: white;
+ 	text-decoration: none;
+	font-weight: 500;
+	letter-spacing: 1.5px;
+	padding: 10px 15px;
+	border-radius: 20px;
+	margin-top: 35px;
+}
+
+.main_nav {
+	position: absolute;
+	top: 0;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+	margin-right: 30px;
+	z-index: 1;
+}
+
+
+header .main_nav a:not(:last-child){
+	margin-right: 30px;
+}
+
+header .main_nav a:hover{
+	background: #202C39;
+}
+
+button.submit{
+	font-size: 20px;
+	font-weight: bold;
+	border: 0;
+	border-radius: 5px;
+	background-color: white;
+	width: 100px;
+	margin-top: 30px;
+	padding: 10px 5px;
+	margin-left: 15px;
+}
+
+button.submit:hover{
+	cursor: pointer;
+	background-color: #202C39;
+}
+
+.middle_submit{
+	display: flex;
+	justify-content: center;
+}
+/*
+CSS IS HARD
+Please pity my life while marking*/
+
+
+
+/*
+Now lemme add the footer and sleep, I've not slept well since*/
+
+
+footer{
+	background-color: black;
+	padding: 20px;
+	margin: 10px;
+	color: white;
+	font-size: 20px;
+	font-family: 'Heebo', sans-serif;
+	display: flex;
+	justify-content: center;
+	text-transform: uppercase;
+	text-decoration: bold;
+}

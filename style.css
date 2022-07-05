@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DotGothic16&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Diplomata&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
+}
+
+
+.mylogo img{
+	position: relative;
+	top: 30px;
+	left: 30px;
+	border-radius: 10px;
+	z-index: 1;
+}
+
+
+.mylogo img:hover{
+	transition: 0.3s;
+	transition-property: transform;
+	transform: scale(1.2);
+}
+
+header{
+	position: relative;
+	width: 100%;
+	min-height: 5vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	background: url(img1.jpg)no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+
+nav {
+	position: absolute;
+	top: 0;
+	width: 100%;
+	padding: 30px 100px;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+
+.myimg{
+	width: auto;
+	height: 550px;
+	border-bottom-left-radius: 150px;
+	border-bottom-right-radius: 150px;
+}
+
+
+header nav.main_nav a{
+	color: black;
+ 	text-decoration: none;
+	font-weight: 500;
+	letter-spacing: 1.5px;
+	padding: 2px 15px;
+	border-radius: 20px;
+}
+
+
+header nav.main_nav a:not(:last-child){
+	margin-right: 30px;
+}
+
+header nav.main_nav a:hover{
+	background: white;
+}
+
+
+.img_titular{
+	display: flex;
+	flex-direction: row-reverse;
+	justify-content: space-between;
+	align-content: center;
+}
+
+
+.container{
+	background: url(https://res.cloudinary.com/amichania/image/upload/v1654830860/New/file000855094214_qq8a9n.jpg)no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: center;
+	padding-bottom: 50px;
+}
+
+
+.main_description{
+	display: flex;
+	flex-direction: column;
+	align-content: center;
+	justify-content: center;
+	margin-left: 40px;
+	align-items: center;
+}
+
+
+
+
+.content {
+	max-height: 650px;
+	margin:60px 100px;
+	text-align: center;
+}
+
+.content p{
+	color: white;
+	font-size: 20px;
+	text-transform: uppercase;
+	letter-spacing: 0.5px;
+	word-spacing: 2px;
+	line-height: 30px;
+	position: relative;
+
+}
+
+main h1{
+	font-family: 'Diplomata', cursive;
+	font-size: 50px;
+	font-weight:400;
+	/*background-color: #2A2D34;*/
+	color: #BCB8B1;
+	width: auto;
+	text-align: center;
+}
+
+
+.moniker{
+	font-family: 'Poppins', sans-serif;
+	font-weight: 500;
+	letter-spacing: 1.5px;
+	color: whitesmoke;
+	font-size: 20px;
+	margin-top: 20px;
+	width: fit-content;
+}
+
+
+.info_btn{
+	color: whitesmoke;
+	text-transform: uppercase;
+	font-weight: 700;
+	letter-spacing: 3px;
+	padding: 10px 20px;
+	border-radius: 15px;
+	width: 50%;
+	margin-left: 25%;
+	margin-right: 25%;
+	display: flex;
+	justify-content: center;
+	margin-top: 50px;
+ }
+
+.info_btn:hover{
+	background: #BCB8B1;
+}
+
+.daytona{
+	display: flex;
+	justify-content: center;
+}
+
+.media_icons{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: auto;
+}
+
+.media_icons a{
+	position: relative;
+	color: #111;
+	font-size: 25px;
+	transition: 0.5s;
+	transition-property: transform;
+}
+
+
+
+.media_icons a:not(:last-child){
+	margin-right: 60px;
+
+}
+
+.media_icons a:hover{
+	transform: scale(1.5);
+
+}
+
+.lower_webmain{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+
+}
+
+.lower_web1, .lower_web2, .lower_web3{
+	box-sizing: border-box;
+	box-shadow: 15px 5px 15px black;
+	padding: 30px;
+	border-radius: 50px;
+	height: 250px;
+	line-height: 30px;
+	font-family: 'Kdam Thmor Pro', sans-serif;
+	letter-spacing: 1.2px;
+	color: white;
+	text-decoration: bold;
+}
+
+.centered{	
+	font-weight: 1000;
+}
+
+footer{
+	padding: 25px;
+	background-color: #839D9A;
+}
+
+.source_code{
+	background-color: #000000;
+	border-radius: 10px;
+	line-height: 20px;
+	color: white;
+	padding: 5px 5px;
+	text-align: center;
+	font-size: 20px;
+	width: 130px;
+	position: relative;
+	left: 75px;
+	top: 100px;
+	cursor: pointer;
+	border: none;
+}
+
+.source_code:hover{
+	background-color: black;
+	color: navajowhite;
+	line-height: 30px;
+	transition: 0.3s;
+	transition-property: transform;
+	transform: scale(1.1);
+
+}
